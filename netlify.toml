@@ -8,3 +8,7 @@ base="/"
 from="/*"
 to="/index.php"
 status=200
+
+[build]
+command = "npm run build && npm run export"
+publish = "out"
